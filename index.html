@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>About Me</title>
+        {% load static %}
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js " crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" type="text/css" href="{% static 'frontend/style.css' %}">
+        <!-- Django framework icon-->
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Abay Akturin</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static "frontend/photo.jpg" %}" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Abay
+                        <span class="text-primary">Akturin</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        8519 Cahill Drive · Austin, TX 78729 · (541) 908-0763 ·
+                        <a href="mailto:abayakturin@gmail.com">abayakturin@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">I am a Masters student in Computer Engineering
+                    at New York University. I have professional experience in Full-Stack Web Development
+                    with Django, and ReactJS, frameworks. Looking for <strong>Summer 2021 internship</strong> opportunities
+                    in <strong>Sofware Engineering, and Machine Learning/Data Science</strong>.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/abay-akturin-9b2253ba/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/abayakturin"><i class="fab fa-github"></i></a>
+{% comment %}                         <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a> {% endcomment %}
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Full-Stack Engineer</h3>
+                            <div class="subheading mb-3">iSate</div>
+                            <p>Developed and integrated web applications and services using Django, and ReactJS, frameworks.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2019 - June 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Process Engineering Technician</h3>
+                            <div class="subheading mb-3">Flex</div>
+                            <p>Performed complex engineering tests, checkouts, and development engineering tasks for a manufacturing 
+                            facility in Austin, TX with 100+ workers. Assisted in developing and designing hardware and software 
+                            required to test customer products per their specifications. Used SQL to retrieve data and generate 
+                            reports.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2018 - April 2019</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">New York University</h3>
+                            <div class="subheading mb-3">Master of Science</div>
+                            <div>Computer Engineering - Machine Learning Track</div>
+                            <p>GPA: 4:00  </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2020 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Oregon State University</h3>
+                            <div class="subheading mb-3">Non-Degree</div>
+                            <div>Computer Science</div>
+                            <p>GPA: 3.10</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2019 - April 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">The Ohio State University</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Chemical Engineering</div>
+                            <p>GPA: 3.02</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2016 - May 2018</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Projects-->
+            <section class="resume-section" id="projects">
+              <div class="resume-section-content">
+                <h2 class="mb-5">Projects</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><a href="http://abaydemo.herokuapp.com/">Upcoming project in Machine Learning</a></h3>
+                        <div class="subheading mb-3">Functionality:</div>
+                        <li>Coming Soon!</li>
+                    </div>
+                    <ul class="list-inline dev-icons">
+                      <li class="iconify" data-icon="carbon:machine-learning"></li>
+                      <li class="iconify" data-icon="simple-icons:pandas"></li>
+                      <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                      <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                      <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                      <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                      <li class="list-inline-item"><i class="fas fa-passport"></i></li>
+                    </ul>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0"><a href="http://abaydemo.herokuapp.com/">Website For Computer Hobbyists</a></h3>
+                        <div class="subheading mb-3">Functionality:</div>
+                        <li>Users can create posts, delete them, and leave comments</li>
+                        <li>Authentication and login data storage</li>
+                        <li>REST API</li>
+                    </div>
+                    <ul class="list-inline dev-icons">
+                      <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                      <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                      <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                      <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                      <li class="iconify" data-icon="bx:bxs-file-json"></li>
+                      <li class="list-inline-item"><i class="fas fa-passport"></i></li>
+                      <li class="iconify" data-icon="cib:mongodb"></li>
+                    </ul>
+                </div>
+              </div>
+            </section>
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <!--<li class="list-inline-item"><i class="fab fa-angular"></i></li>-->
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="iconify" data-icon="simple-icons:django"></li>
+                        <li class="iconify" data-icon="cib:tensorflow"></li>
+                        <!--<li class="list-inline-item"><i class="fab fa-node-js"></i></li>-->
+                        <!--<li class="list-inline-item"><i class="fab fa-sass"></i></li>-->
+                        <!--<li class="list-inline-item"><i class="fab fa-less"></i></li>-->
+                        <!--<li class="list-inline-item"><i class="fab fa-wordpress"></i></li>-->
+                        <!--<li class="list-inline-item"><i class="fab fa-gulp"></i></li>-->
+                        <!--<li class="list-inline-item"><i class="fab fa-grunt"></i></li>-->
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="iconify" data-icon="carbon:sql"></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>In my free time, I do Brazilian Jiu-Jitsu, work out in the gym, and go hiking with friends. During winter, I try to spend every weekend snowboarding.</p>
+                    <p class="mb-0">Indoors, I like to read books on science, psychology, business, and history. Working on programming side-projects helps me learn new material and express my creativity.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Tensorflow Certification
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - The Ohio State University - Capstone Engineering Design 2018
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - Kazakhstan - The National Highschool Science Competition in Chemistry 2012
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            3
+                            <sup>rd</sup>
+                            Place - Kazakhstan - The National Highschool Science Competition in Chemistry 2011
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        {% load static %}
+        <script src="{% static "frontend/scripts.js" %}"></script>
+    </body>
+</html>
